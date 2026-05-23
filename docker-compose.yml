@@ -18,7 +18,7 @@ services:
       retries: 5
 
   app:
-    image: dipakrasal2009/devops-healthcheck-app:418ed54
+    image: dipakrasal2009/devops-healthcheck-app:7b53c37
     container_name: devops-healthcheck
     ports:
       - "8080:8080"
@@ -33,7 +33,7 @@ services:
       DB_NAME: healthcheck
 
   ui:
-    image: dipakrasal2009/devops-healthcheck-ui:418ed54
+    image: dipakrasal2009/devops-healthcheck-ui:7b53c37
     container_name: devops-ui
     ports:
       - "3000:80"
